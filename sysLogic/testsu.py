@@ -1,7 +1,8 @@
 from pyfirmata import ArduinoNano
 import time
+import serial
 import json
-
+port = serial.Serial('/dev/ttyUSB0', 9600, timeout=1)
 
 if __name__ == "__main__":
     board = ArduinoNano("/dev/ttyUSB0", baudrate=9600 , timeout=1)
