@@ -13,3 +13,8 @@ def signup_page():
     return render_template('sign-up.html')
 
 
+@views.route('/connect')
+def connect():
+    return render_template('connect.html')
+
+
