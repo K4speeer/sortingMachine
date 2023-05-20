@@ -1,3 +1,4 @@
+# For running this script should use dgtEnv enviroment because of used python version 
 from pyfirmata import ArduinoNano
 
 
