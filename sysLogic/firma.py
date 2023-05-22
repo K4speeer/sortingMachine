@@ -7,10 +7,11 @@ if __name__ == "__main__":
     board = ArduinoNano("/dev/ttyUSB0", baudrate=9600)
     print("communication successfully started !!!")
 
-    led = board.digital[13]
+    #Defining IR sensor port 
+    # ir_sensor = board.digital[]
 
-    while True:
-        led.write(1)
-        board.pass_time(1)
-        led.write(0)
-        board.pass_time(1)
+    #Defining PCA-9685 pins to connect with arduino
+
+    #Defining Stepper motor shield pins
+
+    
