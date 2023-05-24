@@ -1,4 +1,8 @@
-# For running this script should use dgtEnv enviroment because of used python version 
+'''
+The projects logic is:
+    1. Intro IR detects a ball 
+    2. Start feeding the Cassette, using intro lilServo
+'''
 from pymata4 import pymata4
 import time 
 import asyncio
@@ -6,11 +10,8 @@ import asyncio
 board = pymata4.Pymata4()
 
 board.set_pin_mode_digital_output(13)
-board.get_analog_map()
-board.get_capability_report()
-board.get_firmware_version()
-board.get_protocol_version()
-board.get_pymata_version()
+board.set_pin_mode_digital_input(7)
+
 
 try:
     while True:
