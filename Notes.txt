@@ -1,2 +1,14 @@
 #1 Email input form with validation for sign in and log in pages 
 https://getbootstrap.com/docs/5.3/forms/floating-labels/#input-groups
+
+
+Working Architectuer:
+Feeding the cassette with the balls, 
+detect the ball at feeding pip end using IR sensor 
+trigger the PiCamera to captre a picture of the ball 
+send the file to get preddictid using the CNN model 
+sumulatenuosly keep feeding the cassette till the ball ends 
+
+detect where should bet the while loop and wich parameter controls it
+
+try to implement bash commands to the code (Flask APP): to use the "except KeyboardInterrupt -> board.shutdown()"
